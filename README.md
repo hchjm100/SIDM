@@ -1,2 +1,2 @@
 # SIDM
-SIDM module for cosmological simulation
+Self-Interacting Dark Matter(SIDM) module for cosmological simulation
