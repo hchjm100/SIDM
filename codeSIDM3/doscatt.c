@@ -9,7 +9,7 @@
 #include "proto.h"
 
 //#define DYDEBUG
-//#define DYDEBUGKIN
+#define DYDEBUGKIN
 //#define DYCHECKTH
 
 #ifdef PERIODIC
