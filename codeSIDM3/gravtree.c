@@ -489,7 +489,8 @@ void gravity_tree(void)
       All.CPU_CommSum += sumcomm / NTask;
     }
 
-
+  /** a Hernquist profile controlled by "rhoh" (unit: 10^10 M_solar physical) and "ra" (unit: kpc physical)
+   * added by Demao Kong
   // DY: external potential, following Volker's suggestion 
   // Pos: comoving coordinates in units h^-1 kpc
   // physical pos: Pos*a/h = Pos*All.Time/All.HubbleParam
@@ -507,6 +508,7 @@ void gravity_tree(void)
            //  printf("XXXXXXX r=%g, acc=%g \n",rad,P[i].GravAccel[j]);
         }
      }
+     */
 
   free(nrecv);
   free(ewaldlist);
