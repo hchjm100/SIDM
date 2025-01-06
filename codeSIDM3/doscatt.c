@@ -143,7 +143,7 @@ int doscatt(int bullet, int mode,double dt_drift,double TypicalDist){
             //sigma_m_el = sigma0/(1.0+vr2/vw2); // total cross section
 
             // fixed cross section sigma/m (unit: cm^{2}*g^{-1})
-            sigma_m_tot = 100;
+            sigma_m_tot = 50;
 
 	    // In order that everything is in comoving coordinate, # of collisions should remain the same
             // n sigma/m (v dt) = (n a^3) (sigma/m/a^2) dr/a = (n a^3) (sigma/m/a^2) d_x
